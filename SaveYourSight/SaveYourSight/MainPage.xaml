@@ -50,16 +50,22 @@
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <TextBlock Text="Save Your Sight" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
-            <TextBlock Text="find your defect" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="defects" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"/>
-        <phone:Pivot HorizontalAlignment="Left" Height="597" Margin="12,0,0,0" Grid.Row="1" Title="pivot" VerticalAlignment="Top" Width="456">
-            <phone:PivotItem CacheMode="{x:Null}" Header="item1">
+        <phone:Pivot HorizontalAlignment="Left" Height="597" Margin="12,0,0,0" Grid.Row="1" Title="" VerticalAlignment="Top" Width="456">
+            <phone:PivotItem CacheMode="{x:Null}" Header="Glucoma">
                 <Grid/>
             </phone:PivotItem>
-            <phone:PivotItem CacheMode="{x:Null}" Header="item2">
+            <phone:PivotItem CacheMode="{x:Null}" Header="Cataract">
+                <Grid/>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="{x:Null}" Header="Retinopathy">
+                <Grid/>
+            </phone:PivotItem>
+            <phone:PivotItem CacheMode="{x:Null}" Header="Refractive">
                 <Grid/>
             </phone:PivotItem>
         </phone:Pivot>
