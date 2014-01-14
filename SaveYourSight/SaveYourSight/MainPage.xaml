@@ -54,19 +54,21 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"/>
-        <phone:Pivot HorizontalAlignment="Left" Height="597" Margin="12,0,0,0" Grid.Row="1" Title="" VerticalAlignment="Top" Width="456">
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Button Name="btnProceed" Content="Proceed" HorizontalAlignment="Left" Margin="276,523,0,0" VerticalAlignment="Top" Height="84" Width="180"/>
+        </Grid>
+        <phone:Pivot HorizontalAlignment="Left" Height="517" Margin="12,0,0,0" Grid.Row="1" Title="" VerticalAlignment="Top" Width="456">
             <phone:PivotItem CacheMode="{x:Null}" Header="Glucoma">
-                <Grid/>
+
             </phone:PivotItem>
             <phone:PivotItem CacheMode="{x:Null}" Header="Cataract">
-                <Grid/>
+
             </phone:PivotItem>
             <phone:PivotItem CacheMode="{x:Null}" Header="Retinopathy">
-                <Grid/>
+
             </phone:PivotItem>
             <phone:PivotItem CacheMode="{x:Null}" Header="Refractive">
-                <Grid/>
+
             </phone:PivotItem>
         </phone:Pivot>
     </Grid>
